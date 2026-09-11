@@ -1,0 +1,6 @@
+# This repository is public and holds only published files.
+# Nothing built, nothing local, nothing personal.
+*.exe
+*.zip
+*.log
+.vs/
