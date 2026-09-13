@@ -4,5 +4,10 @@
   "sha256": "a4979c3282d543dad5ae255b56260a8e4aef102220311ca79fb71fcdb407376d",
   "size": 53322158,
   "published": "2026-09-11",
-  "notes": "First public release."
+  "notes": "First public release.",
+  "content": {
+    "version": 6,
+    "url": "https://raw.githubusercontent.com/EL-Sonpaty/05-SheikhDoge-Content/main/content.md",
+    "sha256": "516f0311094c132f3e2f20646b05f886b36564da9f3e99b8113f533f12773222"
+  }
 }
