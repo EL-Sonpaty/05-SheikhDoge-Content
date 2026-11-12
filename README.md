@@ -1,11 +1,11 @@
-# Sheikh Doge — content and releases
+# Dhikra — content and releases
 
 This repository exists to be **public**. The application's own source stays private; this
 holds only the two things every installed copy needs to be able to reach.
 
 | File | What it is |
 |---|---|
-| `latest.json` | The update manifest. Sheikh Doge reads this to learn whether a newer release exists. |
+| `latest.json` | The update manifest. Dhikra reads this to learn whether a newer release exists. |
 | `content.md` | The bundled azkar — the notification pool and every browsable series. |
 
 ## Why it is separate
@@ -35,7 +35,7 @@ From the application repository:
 That builds the installer, hashes it, and rewrites `latest.json` here. Then:
 
 1. Commit and push this repository.
-2. Create a GitHub release tagged `v1.0.1` and attach `SheikhDoge-Setup.exe` to it.
+2. Create a GitHub release tagged `v1.0.1` and attach `Dhikra-Setup.exe` to it.
 
 The order matters. Publish the release **before** pushing the manifest, or every copy of the
 app will spend the gap trying to download a file that does not exist yet.
